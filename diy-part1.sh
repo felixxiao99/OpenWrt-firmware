@@ -26,4 +26,4 @@ git clone https://github.com/esirplayground/luci-app-poweroff.git package/lean/l
 
 
 
-git clone https://github.com/UnblockNeteaseMusic/luci-app-unblockneteasemusic.git package/luci-app-unblockneteasemusic
+# git clone https://github.com/UnblockNeteaseMusic/luci-app-unblockneteasemusic.git package/luci-app-unblockneteasemusic
