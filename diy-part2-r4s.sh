@@ -11,7 +11,7 @@
 #
 
 # Modify default IP
-sed -i 's/192.168.1.1/10.9.9.2/g' package/base-files/files/bin/config_generate
+# sed -i 's/192.168.1.1/10.9.9.2/g' package/base-files/files/bin/config_generate
 # sed -i 's/192.168/10.9/g' package/base-files/files/bin/config_generate
 
 # Modify default theme
@@ -23,7 +23,7 @@ sed -i 's/192.168.1.1/10.9.9.2/g' package/base-files/files/bin/config_generate
 
 
 # Modify version info
-sed -i "s/\(DISTRIB_REVISION='\(\w\|\.\)\+\)'/\1 Compiled by xiaofei'/" package/lean/default-settings/files/zzz-default-settings
+# sed -i "s/\(DISTRIB_REVISION='\(\w\|\.\)\+\)'/\1 Compiled by xiaofei'/" package/lean/default-settings/files/zzz-default-settings
 
 # sed -i 's/replace_music_source.rmempty/-- replace_music_source.rmempty/g' feeds/luci/applications/luci-app-unblockmusic/luasrc/model/cbi/unblockmusic/unblockmusic.lua
 
